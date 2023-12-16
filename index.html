@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hi There!</title>
+		<title>Portfolio - Eka</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,19 +20,19 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon solid fa-paw"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Eka Evita Anggraini</h1>
-								<p>Hi there, thanks for stopping by and welcome to my website!</p>
+								<p>Hi there, thanks for stopping by and it's nice to meet ya!</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Projects</a></li>
-								<li><a href="#about">Docs</a></li>
+								<li><a href="#docs">Docs</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -54,13 +54,13 @@
 								<h2 class="major">Personal Project</h2>
 
 								<h3 class="label">Cardiac Virtual Reality</h3>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image main"><img src="images/project01.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<br>
 								<h2 class="major">Team Projects</h2>
 
 								<h3 class="label">1. NexLab</h3>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image main"><img src="images/project02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 
 								<h3 class="label">2. House Simulation Virtual Reality</h3>
@@ -72,23 +72,23 @@
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 							</article>
 
-						<!-- About -->
-							<article id="about">
+						<!-- Docs -->
+							<article id="docs">
 								<h2 class="major">Certificates</h2>
 								<h3 class="label">4C National Competition 2023</h3>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/cert01.jpg" alt="" /></span>
 
 								<h3 class="label">International Credit Transfer Program</h3>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/cert02.jpg" alt="" /></span>
 
 								<h3 class="label">Git and GitHub Course</h3>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/cert03.jpg" alt="" /></span>
 
 								<h3 class="label">Java Course</h3>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/cert04.jpg" alt="" /></span>
 
 								<h3 class="label">SQL (Basic)</h3>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/cert05.jpg" alt="" /></span>
 							</article>
 
 						<!-- Contact -->
@@ -110,17 +110,17 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" value="Send Message" class="primary" id="notificationInput" onclick="showNotification()"/></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 									<input type="hidden" name="_captcha" value="false">
 									<input type="hidden" name="_next" value="http://127.0.0.1:5500/">
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:ekaevitaanggraini.true@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.linkedin.com/in/eka-evita-anggraini-9857891b6/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.instagram.com/eka_evita/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/EkaEvitaAnggraini" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -384,6 +384,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function showNotification() {
+					alert("Message send succsessfully");
+				}
+			</script>
 
 	</body>
 </html>
